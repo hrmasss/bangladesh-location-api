@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bangladesh-location-api"
+version = "0.1.0"
+description = "A simple api that provides minimal hierarchical location data of Bangladesh"
+authors = ["Hojayfa Rahman <hojayfarahman@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.4"
+python-dotenv = "^1.0.1"
+djangorestframework = "^3.15.2"
+drf-spectacular = "^0.28.0"
+dj-database-url = "^2.3.0"
+django-unfold = "^0.43.0"
+django-cors-headers = "^4.6.0"
